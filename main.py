@@ -7,6 +7,7 @@ from street_strips import draw_signs
 
 # Screen setup
 screen = Screen()
+screen.title("Cross the street game")
 screen.bgcolor("light grey")
 screen.setup(width=600, height=600)
 screen.tracer(0)
